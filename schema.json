@@ -1,0 +1,78 @@
+{
+	"fields": [
+		{
+			"name": "CaseNumber",
+			"title": "FOI case Number",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "DateOfRequestReceived",
+			"title": "Date of request received",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+				"datePattern": "%Y-%m-%d"
+			}
+		},
+		{
+			"name": "Division-Branch",
+			"title": "Division/Branch dealing with request",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "ApplicantCategory",
+			"title": "Applicant category",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "Outcomes",
+			"title": "Outcomes",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "ExemptionsApplied",
+			"title": "Exemptions applied",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "DateOfResponseSent",
+			"title": "Date of response sent",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+				"datePattern": "%Y-%m-%d"
+			}
+		},
+		{
+			"name": "DaysTakenToComplete",
+			"title": "Days taken to complete request",
+			"constraints": {
+				"required": false,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "RequestWording",
+			"title": "Request wording",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		}
+	]
+}
